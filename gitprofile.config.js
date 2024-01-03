@@ -1,8 +1,7 @@
 // gitprofile.config.js
-
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'Arch881010', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,43 +10,39 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'andrew-archer-419607283',
+//    twitter: 'arif_szn',
+    mastodon: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    //medium: 'arifszn',
+    //dev: 'arifszn',
+    stackoverflow: '22493247/arch1010', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://arch.is-a.dev',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    //email: 'arifulalamszn@gmail.com',
   },
+  /*
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
+  */
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
-    'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'Sqlite3',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
   ],
+  /*
   experiences: [
     {
       company: 'Company Name',
@@ -64,6 +59,7 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
+  */
   /* certifications: [
     {
       name: 'Lorem ipsum',
@@ -73,6 +69,13 @@ const config = {
     },
   ], */
   education: [
+    {
+      institution: 'Harmony Grove School District',
+      degree: 'High School Diploma',
+      from: 2014,
+      to: 2026,
+    },
+    /*
     {
       institution: 'Institution Name',
       degree: 'Degree',
@@ -85,31 +88,26 @@ const config = {
       from: '2012',
       to: '2014',
     },
+    */
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      title: 'Expo Post',
+      description: 'A work in progress social media platform.',
+      //imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://expo-post.com',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
+  /*
   blog: {
     source: 'dev', // medium | dev
     username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
+  */
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
@@ -119,7 +117,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'winter',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
