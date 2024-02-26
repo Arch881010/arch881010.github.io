@@ -11,7 +11,7 @@ const config = {
   },
   social: {
     linkedin: 'andrew-archer-419607283',
-//    twitter: 'arif_szn',
+    //twitter: 'arif_szn',
     mastodon: '',
     facebook: '',
     instagram: '',
@@ -27,12 +27,12 @@ const config = {
     phone: '',
     //email: 'arifulalamszn@gmail.com',
   },
-  /*
+  
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
-  */
+  
   skills: [
     'JavaScript',
     'Node.js',
@@ -60,14 +60,19 @@ const config = {
     },
   ],
   */
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Microsoft Office Specialist 2016 Master',
+      body: 'Completed MS Outlook, MS Excel Expert, MS Powerpoint, MS Word Expert exams on Certiport',
+      year: 'March 2023',
+     // link: 'https://example.com'
     },
-  ], */
+    {
+      name: 'Information Technology Specialist in JavaScript',
+      body: 'Completed the JavaScript certification test on Certiport.',
+      year: 'May 2023'
+    }
+  ], 
   education: [
     {
       institution: 'Harmony Grove School District',
