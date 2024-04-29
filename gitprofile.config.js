@@ -10,7 +10,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'andrew-archer-419607283',
+    linkedin: 'Andrew-S-Archer',
     //twitter: 'arif_szn',
     mastodon: '',
     facebook: '',
