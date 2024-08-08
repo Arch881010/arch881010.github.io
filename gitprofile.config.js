@@ -75,11 +75,17 @@ const config = {
   ], 
   education: [
     {
-      institution: 'Harmony Grove School District',
-      degree: 'High School Diploma',
+      institution: 'Harmony Grove School District (Camden)',
+      degree: 'Some HS Education',
       from: 2014,
-      to: 2026,
+      to: 2024,
     },
+    {
+      institution: 'Arkansas School for the Mathmatics, Science, and the Arts',
+      degree: "High School Diploma",
+      from: 2024,
+      to: 2026
+    }
     /*
     {
       institution: 'Institution Name',
@@ -98,12 +104,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    {
+    /*{
       title: 'Expo Post',
       description: 'A work in progress social media platform.',
       //imageUrl: 'https://via.placeholder.com/250x250',
       link: 'https://expo-post.com',
     },
+    */
   ],
   // Display blog posts from your medium or dev account. (Optional)
   /*
